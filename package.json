@@ -1,0 +1,26 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "This is a friend finding application. The user adds their name and image and answers a survey of 10 questions based on their feelings towards that question from strongly agree to strongly disagree. The application then matches the user with the most compatible friend from a database based on their answers. The application uses node and express.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/griffinhall2/FriendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/griffinhall2/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/griffinhall2/FriendFinder#readme"
+}
